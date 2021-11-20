@@ -3,38 +3,14 @@
 
 using namespace std;
 
-int getDigitsCount(int num)
-{
-	int result = 0;
-	
-	for (int i = 0; num > 0; i++)
-	{
-		num = num / 10;
-		result++;
-	}
-	return result;
-}
-
-int* getDigitsArrayFromNum(int num, const int &digitsCount)
-{
-	int* ptr = nullptr;
-
-	ptr = new int[digitsCount];
-
-	for (int i = 0; i < digitsCount; i++)
-	{
-		*(ptr + i) = num % 10;
-		num = num / 10;
-	}
-	return ptr;
-}
-
-int getProduct(const int* digits, const int &count)
+int getProduct(int num)
 {
 	int result = 1;
-	for (int i = 0; i < count; i++)
+
+	for (int i = 0; num > 0; i++)
 	{
-		result *= (*(digits + i));
+		result *= (num % 10);
+		num = num / 10;
 	}
 	return result;
 }
@@ -45,10 +21,7 @@ vector<int> getWaysToWin(const vector<int> &myarr)
 
 	for (int item : myarr)
 	{
-		int count = getDigitsCount(item);
-		int* digits = getDigitsArrayFromNum(item, count);
-
-		int product = getProduct(digits, count);
+		int product = getProduct(item);
 
 		if (product == 0)
 		{
@@ -58,10 +31,7 @@ vector<int> getWaysToWin(const vector<int> &myarr)
 		int waysToWin = 0;
 		for (int i = 1; i <= pow(10, 6); i++)
 		{
-			int temp_count = getDigitsCount(i);
-			int* temp_digits = getDigitsArrayFromNum(i, temp_count);
-
-			int temp_product = getProduct(temp_digits, temp_count);
+			int temp_product = getProduct(i);
 
 			if (temp_product < product)
 			{
@@ -87,6 +57,5 @@ int main()
 	{
 		cout << item << endl;
 	}
-
 	return 0;
 }
