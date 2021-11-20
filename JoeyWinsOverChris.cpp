@@ -1,3 +1,15 @@
+/*
+This file contains a solution to a problem described below:
+Chris wants to give money to Joey by playing a game without any rules. But Joey wants to set some rules for the game as follows:
+1. They have a set of 1000000 cards(A) each with a unique number on it. The product of digits of each card represents the value of the card. Whoever has the highest value of card drawn wins. If both has same value of card then it's a tie and nobody wins.
+
+Consider they play N rounds of this game.
+
+Constraints:
+1 <= A <=1000000
+1 <= N <= 100000
+*/
+
 #include <iostream>
 #include <vector>
 
