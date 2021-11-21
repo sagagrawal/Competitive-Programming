@@ -19,7 +19,7 @@ int getProduct(int num)
 {
 	int result = 1;
 
-	for (int i = 0; num > 0; i++)
+	while(num > 0)
 	{
 		result *= (num % 10);
 		num = num / 10;
