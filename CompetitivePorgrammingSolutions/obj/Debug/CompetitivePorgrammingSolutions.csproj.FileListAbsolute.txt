@@ -1,0 +1,14 @@
+C:\P4\qa\AtpTestcases\ResolveStudio\CompetitivePorgrammingSolutions\bin\Debug\CompetitivePorgrammingSolutions.exe.config
+C:\P4\qa\AtpTestcases\ResolveStudio\CompetitivePorgrammingSolutions\bin\Debug\CompetitivePorgrammingSolutions.exe
+C:\P4\qa\AtpTestcases\ResolveStudio\CompetitivePorgrammingSolutions\bin\Debug\CompetitivePorgrammingSolutions.pdb
+C:\P4\qa\AtpTestcases\ResolveStudio\CompetitivePorgrammingSolutions\obj\Debug\CompetitivePorgrammingSolutions.csproj.AssemblyReference.cache
+C:\P4\qa\AtpTestcases\ResolveStudio\CompetitivePorgrammingSolutions\obj\Debug\CompetitivePorgrammingSolutions.csproj.CoreCompileInputs.cache
+C:\P4\qa\AtpTestcases\ResolveStudio\CompetitivePorgrammingSolutions\obj\Debug\CompetitivePorgrammingSolutions.exe
+C:\P4\qa\AtpTestcases\ResolveStudio\CompetitivePorgrammingSolutions\obj\Debug\CompetitivePorgrammingSolutions.pdb
+C:\P4\pvt\sagagrawal\CompetitivePorgrammingSolutions\bin\Debug\CompetitivePorgrammingSolutions.exe.config
+C:\P4\pvt\sagagrawal\CompetitivePorgrammingSolutions\bin\Debug\CompetitivePorgrammingSolutions.exe
+C:\P4\pvt\sagagrawal\CompetitivePorgrammingSolutions\bin\Debug\CompetitivePorgrammingSolutions.pdb
+C:\P4\pvt\sagagrawal\CompetitivePorgrammingSolutions\obj\Debug\CompetitivePorgrammingSolutions.csproj.AssemblyReference.cache
+C:\P4\pvt\sagagrawal\CompetitivePorgrammingSolutions\obj\Debug\CompetitivePorgrammingSolutions.csproj.CoreCompileInputs.cache
+C:\P4\pvt\sagagrawal\CompetitivePorgrammingSolutions\obj\Debug\CompetitivePorgrammingSolutions.exe
+C:\P4\pvt\sagagrawal\CompetitivePorgrammingSolutions\obj\Debug\CompetitivePorgrammingSolutions.pdb
